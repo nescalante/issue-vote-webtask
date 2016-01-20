@@ -16,6 +16,7 @@ Many steps, such easy
 
 ### 3) Initialize the webtask
 - Install the [WebTask CLI](https://github.com/auth0/wt-cli) doing `npm install wt-cli -g` in your favourite console
+- Initialize it with `wt init`
 - Run the following command: 
 ```
 wt create --name gh-list https://raw.githubusercontent.com/nescalante/gh-list/master/src/main.js --secret MONGO_URL=$YOUR_MONGO_URL --secret GITHUB_TOKEN=$YOUR_TOKEN
