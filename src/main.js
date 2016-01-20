@@ -97,7 +97,7 @@ module.exports = function (context, callback) {
           .join('\n');
         var usersLength = (dbObj.users || []).length;
 
-        requestAsync(
+        return requestAsync(
           {
             url: 'https://api.github.com/repos/' + obj.repository + '/issues/' + obj.issue,
             headers: {
