@@ -93,7 +93,7 @@ module.exports = function (context, callback) {
         { issue: obj.issue, repository: obj.repository }
       ).then(function (dbObj) {
         var usersList = (dbObj.users || [])
-          .map(function (user) { return '- @' + user })
+          .map(function (user) { return '- @' + user; })
           .join('\n');
         var usersLength = (dbObj.users || []).length;
 
