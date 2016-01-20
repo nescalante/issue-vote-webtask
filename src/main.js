@@ -33,6 +33,9 @@ module.exports = function (context, callback) {
       else if (action === 'created' && /^(-1)/.test(comment)) {
         return removeUser({ issue: issue.number, repository: repository, user: user });
       }
+      else if (body.hook) {
+        return;
+      }
       else {
         throw new Error('invalid payload');
       }
