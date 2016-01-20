@@ -89,10 +89,10 @@ module.exports = function (context, callback) {
       .findOneAsync(
         { issue: obj.issue, repository: obj.repository }
       ).then(function (dbObj) {
-        var usersList = dbObj.users
+        var usersList = (dbObj.users || [])
           .map(function (user) { return '- @' + user })
           .join('\n');
-        var usersLength = dbObj.users.length;
+        var usersLength = (dbObj.users || []).length;
 
         requestAsync(
           {
