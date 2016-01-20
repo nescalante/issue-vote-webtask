@@ -33,3 +33,4 @@ https://webtask.it.auth0.com/api/run/wt-foo-bar_com-0/my-repo?webtask_no_cache=1
 ### 5) You are all set!
 - Now you can open issues in your repo and call for votes or users to support that just commenting with a `+1`
 - Of course you can delete yourself from any list just commenting with a `-1`
+- Now that you are a happy hacky user, you can add yourself to [this list](https://github.com/nescalante/gh-list/issues/1) (of course, writing a comment with a `+1`)
