@@ -41,11 +41,13 @@ module.exports = function (context, callback) {
       }
     })
     .then(function () {
-      db.close();
       callback();
     })
     .catch(function (err) {
       callback(err);
+    })
+    .finally(function () {
+      db.close();
     });
 
   function connect() {
