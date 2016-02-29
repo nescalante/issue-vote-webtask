@@ -1,4 +1,4 @@
-# GH List
+# Issue Vote Webtask
 
 > A [web task](https://webtask.io/) to create lists of whatever you want (vote casting, attendees to your geek pizza party, players for your nerd soccer match) using GitHub issues
 
@@ -19,7 +19,7 @@ Many steps, such easy
 - Initialize it with `wt init`
 - Run the following command: 
 ```
-wt create --name gh-list https://raw.githubusercontent.com/nescalante/gh-list/master/src/main.js --secret MONGO_URL=$YOUR_MONGO_URL --secret GITHUB_TOKEN=$YOUR_TOKEN
+wt create --name issue-vote-webtask https://raw.githubusercontent.com/nescalante/issue-vote-webtask/master/src/main.js --secret MONGO_URL=$YOUR_MONGO_URL --secret GITHUB_TOKEN=$YOUR_TOKEN
 ```
 - That command will return a URL, something like this: 
 ```
@@ -34,4 +34,4 @@ https://webtask.it.auth0.com/api/run/wt-foo-bar_com-0/my-repo?webtask_no_cache=1
 ### 5) You are all set!
 - Now you can open issues in your repo and call for votes or users to support that just commenting with a `+1`
 - Of course you can delete yourself from any list just commenting with a `-1`
-- Now that you are a happy hacky user, you can add yourself to [this list](https://github.com/nescalante/gh-list/issues/1) (of course, writing a comment with a `+1`)
+- Now that you are a happy hacky user, you can add yourself to [this list](https://github.com/nescalante/issue-vote-webtask/issues/1) (of course, writing a comment with a `+1`)
