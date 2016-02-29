@@ -21,8 +21,7 @@ module.exports = function (context, callback) {
   var comment = body.comment && body.comment.body;
   var db;
 
-  new Promise.resolve()
-    .then(connect)
+  new connect()
     .then(function () {
       if (action === 'opened') {
         return insertIssue({ issue: issue.number, repository: repository, body: issue.body });
