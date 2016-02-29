@@ -1,7 +1,7 @@
 {
-  "name": "gh-list",
+  "name": "issue-vote-webtask",
   "version": "1.0.0",
-  "description": "GitHub hooks driven list",
+  "description": "A webtask to count votes for an issue",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nescalante/gh-list"
+    "url": "https://github.com/nescalante/issue-vote-webtask"
   },
   "keywords": [
     "github",
     "hooks",
-    "list"
+    "list",
+    "issue",
+    "vote",
+    "webtask"
   ],
   "bugs": {
-    "url": "https://github.com/nescalante/gh-list/issues"
+    "url": "https://github.com/nescalante/issue-vote-webtask/issues"
   },
-  "homepage": "https://github.com/nescalante/gh-list",
+  "homepage": "https://github.com/nescalante/issue-vote-webtask",
   "author": "Nicolas Escalante <nlante@gmail.com>",
   "license": "MIT",
   "devDependencies": {
