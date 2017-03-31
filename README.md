@@ -1,5 +1,7 @@
 # Issue Vote Webtask
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nescalante/issue-vote-webtask.svg)](https://greenkeeper.io/)
+
 > A [web task](https://webtask.io/) to create lists of whatever you want (vote casting, attendees to your geek pizza party, players for your nerd soccer match) using GitHub issues
 
 ## Setting up a repo
